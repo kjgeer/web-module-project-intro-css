@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+html{
+    font-family:'Roboto Mono', monospace;
+    text-size-adjust: 15px;
+    padding: 1.5em;
+}
+
+section p{
+    background-color:#DDB9A3;
+    color:whitesmoke;
+    text-align: center;
+    margin-top: 7em;
+    margin-bottom: .5em;
+
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:4.7em;
+    text-align: center;
+    padding-right: 5em;
+    padding-bottom: 1.5em;
+    margin-left: 2em;
+    margin-top: 3em;
+    display:inline;
+    height:3em;
+    line-height: 1.5em;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5em;
+    display: inline-block;
+    height: 2em;
+    line-height: .75em;
+    margin-right: 2em;
+    margin-left: 7em;
+    padding: .75;
+}
+
+h3{
+    text-align: center;
+    padding-left: 35em;
+    padding-right: 35em;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.1em;
+    border: 1px solid black;
+    padding:1em ;
+    border-radius: 12%;
+    margin-right: 2em;
+    margin: 7em;
+}
+
+.visit{
+    background-color:#FF764E;
+    margin-right: 10em;  
+  
+}
+
+.about{
+    background-color:#5ED3EB;
+    margin-right: 10em;  
+}
+
+.involved{
+    background-color:#FFCD69;
+    margin-left: 5em;
+}
+
+footer{
+    background-color:#F9E7DC;
+    padding: 3em;
+}
+
+.footer-img{
+    text-align: center;
+    height: 25vw;
+    width: 100%;
+}
+.boldText{
+    font-weight: bolder;
+}
+
+header img{
+    height: 15vw;
+    border-radius: 50%;
+    text-align: left;
+    border: 3px solid black;
+    display: inline-block;
+    margin-top: 3em;
+    float: left;
+}
+
+.rv{
+    text-align: center;
+    height: 10vw;
+    padding-left: 45em;
+}
+
+.fire{
+    text-align: center;
+    height: 10vw;
+    padding-left: 45em;
+}
